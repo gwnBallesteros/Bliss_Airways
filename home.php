@@ -29,7 +29,7 @@
     #container_top  {
         margin-top:6rem;
         opacity: 90%;
-        width: 90rem;       
+        width: 90rem;     
     }
 
    </style>
@@ -80,12 +80,12 @@
                         <img src="assets/redd-f-nTBW1cOY1qI-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
 
-                    <div class="container text-center">
+                    <div class="container text-center style">
                         <div class="row align-items-start">
                             <div class="col">
                                 <div id="container_top" class="container px-4 text-center">
                                     <div class="col-sm-6 col-md-7">     
-                                        <div class="card text-center ">
+                                        <div class="card text-center " style="height:22rem">
                                             <div class="card-header">
                                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item" role="presentation">
@@ -126,19 +126,44 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="row g-2 mt-1 mb-2">
-                                                            <div class="col-md-6">
-                                                                    <div class="form-floating">
-                                                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
-                                                                        <label for="floatingInputGrid">Fying From</label>
-                                                                    </div>
-                                                            </div>   
-                                                            <div class="col-md-6">
-                                                                    <div class="form-floating">
-                                                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
-                                                                        <label for="floatingInputGrid">Fying To</label>
-                                                                    </div>
-                                                            </div>   
+                                                        <div class="row g-2 mt-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                <select class="form-select" id="floatingSelectGrid">
+                                                                    <option value="1">Manila, MNL </option>
+                                                                    <option value="2">London, LHR</option>
+                                                                    <option value="3">Athens, ATH</option>
+                                                                    <option value="4">Hong Kong, HKG</option>
+                                                                    <option value="5">Moscow, SVO</option>
+                                                                    <option value="6">Sydney, SYD</option>
+                                                                    <option value="7">Paris, CDG</option>
+                                                                    <option value="8">Abu Dhabi, AUH</option>
+                                                                    <option value="9">New York, JFK</option>
+                                                                    <option value="10">Tokyo, NRT</option>
+                                                                    <option value="11">Vancouver, YVR</option>
+                                                                </select>
+                                                                <label for="floatingSelectGrid">Flying from</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                <select class="form-select" id="floatingSelectGrid">
+                                                                    <option value=""></option>
+                                                                    <option value="1">Manila, MNL </option>
+                                                                    <option value="2">London, LHR</option>
+                                                                    <option value="3">Athens, ATH</option>
+                                                                    <option value="4">Hong Kong, HKG</option>
+                                                                    <option value="5">Moscow, SVO</option>
+                                                                    <option value="6">Sydney, SYD</option>
+                                                                    <option value="7">Paris, CDG</option>
+                                                                    <option value="8">Abu Dhabi, AUH</option>
+                                                                    <option value="9">New York, JFK</option>
+                                                                    <option value="10">Tokyo, NRT</option>
+                                                                    <option value="11">Vancouver, YVR</option>
+                                                                </select>
+                                                                <label for="floatingSelectGrid">Flying to</label>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="row g-2 mt-1 mb-2">
                                                             <div class="col-md-6">
@@ -153,13 +178,20 @@
                                                                         <label for="return" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Return</label>    
                                                                     </div>
                                                             </div>        
-                                                        </div>   
+                                                        </div> 
+                                                        <div class="row g-2 mt-1 ">
+                                                            <div class="col-md-6">
+                                                            </div>   
+                                                            <div class="d-grid gap-2 col-6 mx-auto">
+                                                                <button id="bookflight" class="btn btn-primary" type="button">Book flight</button>
+                                                            </div>        
+                                                        </div>  
                                                     </div>
                                                 </div>
 
-                                                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                                                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                                                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                                                <div class="tab-pane fade" id="manage-tab-pane" role="tabpanel" aria-labelledby="manage-tab" tabindex="0" style="height:20rem"></div>
+                                                <div class="tab-pane fade" id="checkin-tab-pane" role="tabpanel" aria-labelledby="checkin-tab" tabindex="0"></div>
+                                                <div class="tab-pane fade" id="flighstatus-tab-pane" role="tabpanel" aria-labelledby="flighstatus-tab" tabindex="0"></div>
                                             </div>
                                         </div>
                                     </div>
