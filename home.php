@@ -183,7 +183,7 @@
                                                             <div class="col-md-6">
                                                             </div>   
                                                             <div class="d-grid gap-2 col-6 mx-auto">
-                                                                <button class="btn btn-primary" type="button">Book flight</button>
+                                                                <button id="bookflight" class="btn btn-primary" type="button">Book flight</button>
                                                             </div>        
                                                         </div>  
                                                     </div>
